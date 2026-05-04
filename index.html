@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prasad S — Data Analyst Portfolio</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,sans-serif;background:#0A1628;color:#fff}
+.navbar{background:#0D1F36;padding:14px 30px;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:100;border-bottom:2px solid #2E75B6}
+.nav-name{font-size:16px;font-weight:700;color:#fff}
+.nav-links{display:flex;gap:20px}
+.nav-links a{color:#7BA7CC;text-decoration:none;font-size:13px}
+.hero{background:linear-gradient(135deg,#0D1F36,#1B3A6B);padding:60px 30px;text-align:center}
+.hero-name{font-size:36px;font-weight:700;margin-bottom:8px}
+.hero-title{font-size:16px;color:#7BA7CC;margin-bottom:16px}
+.hero-badges{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-bottom:20px}
+.badge{background:#1B3A6B;color:#7BA7CC;padding:4px 12px;border-radius:12px;font-size:12px;border:1px solid #2E75B6}
+.hero-btns{display:flex;gap:10px;justify-content:center}
+.btn{padding:10px 20px;border-radius:6px;font-size:13px;font-weight:700;text-decoration:none}
+.btn-primary{background:#2E75B6;color:#fff}
+.btn-secondary{background:transparent;color:#7BA7CC;border:1px solid #2E75B6}
+.section{padding:40px 30px;max-width:900px;margin:0 auto}
+.section-title{font-size:20px;font-weight:700;color:#fff;margin-bottom:20px;padding-bottom:10px;border-bottom:2px solid #2E75B6}
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-bottom:30px}
+.stat-card{background:#0D1F36;border:1px solid #1A3A5C;border-radius:8px;padding:14px;text-align:center}
+.stat-val{font-size:22px;font-weight:700;color:#2E75B6}
+.stat-label{font-size:11px;color:#7BA7CC;margin-top:3px}
+.projects-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.project-card{background:#0D1F36;border:1px solid #1A3A5C;border-radius:10px;padding:16px}
+.project-icon{font-size:24px;margin-bottom:8px}
+.project-title{font-size:14px;font-weight:700;color:#fff;margin-bottom:6px}
+.project-desc{font-size:12px;color:#7BA7CC;line-height:1.6;margin-bottom:10px}
+.project-tags{display:flex;flex-wrap:wrap;gap:4px;margin-bottom:10px}
+.tag{background:#1B3A6B;color:#7BA7CC;padding:2px 8px;border-radius:8px;font-size:10px}
+.project-links{display:flex;gap:8px}
+.project-link{background:#2E75B6;color:#fff;padding:4px 12px;border-radius:4px;font-size:11px;text-decoration:none}
+.skills-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.skill-card{background:#0D1F36;border:1px solid #1A3A5C;border-radius:8px;padding:12px;text-align:center}
+.skill-icon{font-size:22px;margin-bottom:6px}
+.skill-name{font-size:12px;font-weight:700;color:#fff;margin-bottom:3px}
+.skill-level{font-size:10px;color:#7BA7CC}
+.skill-bar{height:4px;background:#1A3A5C;border-radius:2px;margin-top:6px;overflow:hidden}
+.skill-fill{height:100%;border-radius:2px;background:#2E75B6}
+.contact-box{background:#0D1F36;border:1px solid #1A3A5C;border-radius:12px;padding:24px;text-align:center}
+.footer{background:#0D1F36;padding:16px;text-align:center;font-size:11px;color:#4A7A9B;border-top:1px solid #1A3A5C}
+</style>
+</head>
+<body>
+
+<div class="navbar">
+  <div class="nav-name">Prasad S — Data Analyst</div>
+  <div class="nav-links">
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </div>
+</div>
+
+<div class="hero">
+  <div class="hero-name">Prasad S</div>
+  <div class="hero-title">Data Analyst | Fresher | Open to Work 🚀</div>
+  <div class="hero-badges">
+    <span class="badge">📊 Excel</span>
+    <span class="badge">🐘 SQL</span>
+    <span class="badge">📈 Power BI</span>
+    <span class="badge">🎨 Tableau</span>
+    <span class="badge">🔄 Power Query</span>
+    <span class="badge">📉 Data Visualization</span>
+  </div>
+  <div class="hero-btns">
+    <a href="https://www.linkedin.com/in/prasadsprasu" class="btn btn-primary">LinkedIn</a>
+    <a href="https://github.com/PRASADS877" class="btn btn-secondary">GitHub</a>
+  </div>
+</div>
+
+<div class="section">
+  <div class="stats">
+    <div class="stat-card"><div class="stat-val">6+</div><div class="stat-label">Projects</div></div>
+    <div class="stat-card"><div class="stat-val">25K+</div><div class="stat-label">Records analyzed</div></div>
+    <div class="stat-card"><div class="stat-val">4</div><div class="stat-label">Tools mastered</div></div>
+    <div class="stat-card"><div class="stat-val">10+</div><div class="stat-label">KPIs built</div></div>
+  </div>
+
+  <div class="section-title" id="projects">📁 Projects</div>
+  <div class="projects-grid">
+    <div class="project-card">
+      <div class="project-icon">🛡️</div>
+      <div class="project-title">Insurance Policy KPI Dashboard</div>
+      <div class="project-desc">Interactive Excel dashboard analyzing 5,000 insurance records. Built 10 KPIs using Power Query, Pivot Tables and Slicers.</div>
+      <div class="project-tags"><span class="tag">Excel</span><span class="tag">Power Query</span><span class="tag">Pivot Tables</span></div>
+      <div class="project-links"><a href="https://github.com/PRASADS877/Insurance-Policy-KPI-Dashboard" class="project-link">GitHub</a></div>
+    </div>
+    <div class="project-card">
+      <div class="project-icon">🏦</div>
+      <div class="project-title">Credit Debit Banking Dashboard</div>
+      <div class="project-desc">Tableau and Power BI banking dashboard with KPIs, bank-wise transaction analysis and quarterly trends.</div>
+      <div class="project-tags"><span class="tag">Tableau</span><span class="tag">Power BI</span><span class="tag">SQL</span></div>
+      <div class="project-links"><a href="https://github.com/PRASADS877/Credit-Debit-Banking-Analytics-Dashboard-" class="project-link">GitHub</a></div>
+    </div>
+    <div class="project-card">
+      <div class="project-icon">🏥</div>
+      <div class="project-title">Health Care Data Analysis</div>
+      <div class="project-desc">End-to-end healthcare data analysis using SQL including data cleaning, transformation and business insights.</div>
+      <div class="project-tags"><span class="tag">SQL</span><span class="tag">Data Cleaning</span><span class="tag">PostgreSQL</span></div>
+      <div class="project-links"><a href="https://github.com/PRASADS877/Health_Care_Project" class="project-link">GitHub</a></div>
+    </div>
+    <div class="project-card">
+      <div class="project-icon">🛒</div>
+      <div class="project-title">E-Commerce Sales Analysis</div>
+      <div class="project-desc">End-to-end SQL project analyzing e-commerce data to identify key business problems and optimize performance metrics.</div>
+      <div class="project-tags"><span class="tag">SQL</span><span class="tag">PostgreSQL</span><span class="tag">Business Analysis</span></div>
+      <div class="project-links"><a href="https://github.com/PRASADS877/E_Commerce_Sales_Project" class="project-link">GitHub</a></div>
+    </div>
+    <div class="project-card">
+      <div class="project-icon">🛍️</div>
+      <div class="project-title">SQL Retail Sales Analysis</div>
+      <div class="project-desc">SQL analysis of retail sales data with aggregations, joins and business insights using PostgreSQL.</div>
+      <div class="project-tags"><span class="tag">SQL</span><span class="tag">PostgreSQL</span><span class="tag">Analytics</span></div>
+      <div class="project-links"><a href="https://github.com/PRASADS877/sql-retail-sales-analysis" class="project-link">GitHub</a></div>
+    </div>
+    <div class="project-card">
+      <div class="project-icon">🏠</div>
+      <div class="project-title">Nashville Housing Data Cleaning</div>
+      <div class="project-desc">Real-world SQL data cleaning with null handling, duplicate removal and format standardization.</div>
+      <div class="project-tags"><span class="tag">SQL</span><span class="tag">Data Cleaning</span><span class="tag">PostgreSQL</span></div>
+      <div class="project-links"><a href="https://github.com/PRASADS877/Nashville-Housing-Data-Cleaning" class="project-link">GitHub</a></div>
+    </div>
+  </div>
+</div>
+
+<div class="section" id="skills">
+  <div class="section-title">🛠️ Skills</div>
+  <div class="skills-grid">
+    <div class="skill-card"><div class="skill-icon">📊</div><div class="skill-name">Microsoft Excel</div><div class="skill-level">Power Query, Pivot Tables, Dashboards</div><div class="skill-bar"><div class="skill-fill" style="width:90%"></div></div></div>
+    <div class="skill-card"><div class="skill-icon">🐘</div><div class="skill-name">SQL / PostgreSQL</div><div class="skill-level">Joins, Aggregations, CTEs, Window Functions</div><div class="skill-bar"><div class="skill-fill" style="width:80%"></div></div></div>
+    <div class="skill-card"><div class="skill-icon">📈</div><div class="skill-name">Power BI</div><div class="skill-level">DAX, Reports, Dashboards</div><div class="skill-bar"><div class="skill-fill" style="width:75%"></div></div></div>
+    <div class="skill-card"><div class="skill-icon">🎨</div><div class="skill-name">Tableau</div><div class="skill-level">Charts, Dashboards, Story Telling</div><div class="skill-bar"><div class="skill-fill" style="width:75%"></div></div></div>
+    <div class="skill-card"><div class="skill-icon">🔄</div><div class="skill-name">Power Query</div><div class="skill-level">ETL, Data Cleaning, Merging</div><div class="skill-bar"><div class="skill-fill" style="width:85%"></div></div></div>
+    <div class="skill-card"><div class="skill-icon">🧹</div><div class="skill-name">Data Cleaning</div><div class="skill-level">Nulls, Duplicates, Standardization</div><div class="skill-bar"><div class="skill-fill" style="width:88%"></div></div></div>
+  </div>
+</div>
+
+<div class="section" id="contact">
+  <div class="section-title">📬 Contact</div>
+  <div class="contact-box">
+    <div style="font-size:18px;font-weight:700;margin-bottom:8px">Open to Data Analyst Opportunities</div>
+    <div style="font-size:13px;color:#7BA7CC;margin-bottom:16px">Fresher looking for entry level Data Analyst roles in Bangalore and remote positions across India</div>
+    <div style="display:flex;gap:10px;justify-content:center">
+      <a href="https://www.linkedin.com/in/prasadsprasu" class="btn btn-primary">LinkedIn</a>
+      <a href="https://github.com/PRASADS877" class="btn btn-secondary">GitHub</a>
+    </div>
+  </div>
+</div>
+
+<div class="footer">© 2026 Prasad S — Data Analyst Portfolio | Built with passion for data 🚀</div>
+
+</body>
+</html>
